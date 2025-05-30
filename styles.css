@@ -1,11 +1,8 @@
-/*  your css code here. If applicable */
-
-.box{
+.box {
 	background-color: lightblue;
 	width: 200px;
 	height: 200px;
-	display: flex;
-	border: solid 3px black;
+	border: 2px solid black; /* fixed from 3px to 2px */
 
 	position: absolute;
 	top: 50%;
@@ -15,11 +12,9 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
 }
 
 .box p {
-      color: purple;
-      margin: 0;  /* Remove default margin */
-    }
-
+	color: purple;
+	margin: 0;
+}
